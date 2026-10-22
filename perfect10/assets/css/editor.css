@@ -1,0 +1,71 @@
+/* These editor-only defaults mirror the frontend's bounded viewport scales. */
+.editor-styles-wrapper, .block-editor-block-styles {
+  --p10-fluid-type: clamp(1.03rem, calc(0.98rem + 0.16vw), 1.2rem);
+  --p10-fluid-space: clamp(0.78rem, 1.1vw, 1.45rem);
+}
+/* Block editor styling — mirrors the front end so authors see crisp white text on obsidian. */
+.editor-styles-wrapper,
+.block-editor-block-styles {
+  background: #0b0a09;
+  color: #ffffff;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: calc(var(--p10-fluid-type) * 1);
+  font-weight: 400;
+  line-height: 1.82;
+}
+
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6,
+.block-editor-block-styles h1,
+.block-editor-block-styles h2,
+.block-editor-block-styles h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.editor-styles-wrapper a { color: #f3d98b; }
+
+.editor-styles-wrapper blockquote {
+  border-left: 2px solid #d4af37;
+  padding-left: calc(var(--p10-fluid-space) * 1.6);
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic;
+  font-size: calc(var(--p10-fluid-type) * 1.25);
+  color: #ffffff;
+}
+
+.editor-styles-wrapper p,
+.editor-styles-wrapper li { color: #ffffff; }
+
+.editor-styles-wrapper .p10-accent,
+.editor-styles-wrapper em.p10-accent { color: #d4af37; font-style: italic; }
+
+.editor-styles-wrapper .p10-eyebrow {
+  font-family: "Jost", "Inter", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #f3d98b;
+}
+
+.editor-styles-wrapper table th {
+  font-family: "Jost", "Inter", sans-serif;
+  font-size: 0.82rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #f3d98b;
+}
+
+.editor-styles-wrapper hr {
+  border: 0;
+  height: 1px;
+  background: rgba(212, 175, 55, 0.26);
+}

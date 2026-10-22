@@ -1,0 +1,21 @@
+/*
+Theme Name: Perfect 10
+Theme URI: https://lasperfect10s.com
+Author: Perfect 10 Studio
+Author URI: https://lasperfect10s.com
+Description: Luxury dark-editorial WordPress & Elementor directory theme for Perfect 10 and official child network Hollywood Elite Escorts. Includes self-contained demo media & 300–400w location/type/page guides, direct keyword + cascading location search, homepage Editorial Journal / Blogs, left-side location filters, 3D/SD card depth effects, full-website-scanning lead-capture Concierge Chatbot (no API key required + optional Agent API enhancement), and high-contrast white typography.
+Version: 2.1.0
+Requires at least: 6.4
+Tested up to: 6.9
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: perfect10
+Tags: directory, custom-post-types, elementor, dark, gold, custom-colors, custom-menu, featured-images, translation-ready
+*/
+
+/*
+ * All visual styling lives in /assets/css/main.css and is enqueued by
+ * inc/assets.php. This file intentionally only carries the theme header so
+ * that WordPress can identify the theme.
+ */
